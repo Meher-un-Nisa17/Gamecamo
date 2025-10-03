@@ -1,17 +1,28 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Poppins;
+
+}
+@font-face {
+    font-family: 'EurostileExtended';
+    src:url(asset/EurostileExtended.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 body{
     background-color: black;
 }
 .hero{
-     height: 100vh;
+     height: 130vh;
       width: 100%;
       background-image: url(asset/Vector.png);
+      background-position: center;
+      background-size: cover;
       color: #fff;
       position: relative; 
+      display: flex;
+      align-items: center;
+      font-family: Poppins;
 }
 .navbar{
     width: 1222.771484375px;
@@ -66,4 +77,70 @@ text-align: center;
     justify-content: space-between;
     align-items: center;
     gap: 54px;
+}
+.home-text{
+    width: 527px;
+    height: 512px;
+    margin-top: -220px;
+    margin-left: 154px;
+    gap: 50px;
+}
+.home-text h4{
+    width: 273px;
+    height: 31px;
+    color: rgba(232, 125, 14, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
+.home-text h2{
+    width: 479.62px;
+    height: 234px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.home-text p{
+    width: 520px;
+    height: 101px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 200%;
+    margin-top: 22px;
+}
+.home-text button{
+    width: 195px;
+    height: 53px;
+    margin-top: 50px;
+    border-radius: 40px;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.joystick{
+    width: 714px;
+height: 604px;
+margin-top: -180px;
+margin-left: -60px;
+
+}
+.camos h1{
+    width: 1250.22px;
+height: 345px;
+font-size: 250px;
+font-weight: 700;
+font-style: bold;
+font-family: 'EurostileExtended';
+margin-top: -280px;
+left: 161.07px;
+background:linear-gradient(179.71deg, #838383 -6.1%, rgba(0, 0, 0, 0) 99.75%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+color: transparent;
+text-align: center;
+position: relative;
+letter-spacing: 60px;
+
 }
