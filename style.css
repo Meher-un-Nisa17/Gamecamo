@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+body{
+    background-color: black;
+}
+.hero{
+     height: 100vh;
+      width: 100%;
+      background-image: url(asset/Vector.png);
+      color: #fff;
+      position: relative; 
+}
+.navbar{
+    width: 1222.771484375px;
+    height: 48.34323501586914px;
+    top: 37px;
+    left: 154px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background-color: transparent;
+    }
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 88px;
+    align-items: center;
+}
+.nav-link button{
+    width: 131.77px;
+height: 41.34px;
+font-size: 13px;
+font-weight: 400;
+top: 44px;
+left: 1245px;
+border-radius: 6px;
+background-color: rgba(250, 144, 33, 1);
+color: #fff;
+}
+.nav-link a{
+    width: 50.6px;
+height: 24.2px;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+color: #fff;
+}
+.logo{
+    font-size: 29px;
+    font-style: bold;
+    font-weight: 800;
+text-align: center;
+}
