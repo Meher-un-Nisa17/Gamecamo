@@ -55,3 +55,15 @@ color: #fff;
     font-weight: 800;
 text-align: center;
 }
+.sidebar{
+    width: 32px;
+    height: 704px;
+    top: 52px;
+    left: 40px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
+}
